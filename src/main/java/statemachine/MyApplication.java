@@ -27,7 +27,9 @@ public class MyApplication implements CommandLineRunner {
     public void run(String... args) throws Exception {
 
         stateMachine.sendEvent(OrderEvent.INIT_STATE);
+//        stateMachine.sendEvent(OrderEvent.CANCEL);
         stateMachine.sendEvent(OrderEvent.RECEIVE_ORDER);
-        stateMachine.sendEvent(OrderEvent.SCHEDULE);
+//        stateMachine.sendEvent(OrderEvent.SCHEDULE);
+//        stateMachine.sendEvent(OrderEvent.COMPLETE);
     }
 }
