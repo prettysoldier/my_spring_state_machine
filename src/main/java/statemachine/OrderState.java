@@ -24,4 +24,16 @@ public enum OrderState {
         this.key = key;
         this.desc = desc;
     }
+
+    public Integer getCode() {
+        return code;
+    }
+
+    public String getKey() {
+        return key;
+    }
+
+    public String getDesc() {
+        return desc;
+    }
 }
